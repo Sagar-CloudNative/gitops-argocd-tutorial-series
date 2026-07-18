@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Kubernetes local configs / secrets (add as needed in later episodes)
+*.kubeconfig
+secrets/
+*.env
+
+# Logs
+*.log
