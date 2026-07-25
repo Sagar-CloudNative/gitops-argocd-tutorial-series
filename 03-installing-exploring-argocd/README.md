@@ -81,7 +81,7 @@ helm list -n argocd
 kubectl get pods -n argocd
 ```
 
-Full step-by-step commands (with explanations) are in [`scripts/commands.sh`](scripts/commands.sh).
+Full step-by-step commands (with explanations) are in [`docs/commands.md`](docs/commands.md).
 
 ## Accessing the Web UI
 
@@ -158,8 +158,8 @@ argocd account get-user-info
 ```
 03-installing-exploring-argocd/
 ├── README.md              # This file
-└── scripts/
-    └── commands.sh         # All CLI commands from the demo, in order
+└── docs/
+    └── commands.md         # All CLI commands from the demo, in order (reference only)
 ```
 
 ## Next Episode
