@@ -4,9 +4,10 @@ metadata:
   name: guestbook-service
   namespace: guestbook
 spec:
+  type: NodePort
   selector:
     app: guestbook
   ports:
   - port: 80
     targetPort: 80
-  type: ClusterIP
+    nodePort: 30080
