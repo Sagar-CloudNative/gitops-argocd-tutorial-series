@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/<YOUR-GITHUB-USERNAME>/<YOUR-REPO-NAME>.git
+    repoURL: https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series.git
     targetRevision: main
     path: episode-04-deploy-first-application/techops-demo
 

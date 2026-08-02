@@ -46,8 +46,15 @@ episode-04-deploy-first-application/
 
 ## Deploy Steps
 
-1. Fork / clone this repository and push it to your own GitHub account.
-2. Update `application.yaml` → `spec.source.repoURL` to point at **your** repo.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series.git
+   cd gitops-argocd-tutorial-series/episode-04-deploy-first-application
+   ```
+
+2. `application.yaml` already points at this repo's `main` branch and the
+   `episode-04-deploy-first-application/techops-demo` path — no edits needed.
 3. Apply the Argo CD Application:
 
    ```bash
