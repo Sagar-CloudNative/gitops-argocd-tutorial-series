@@ -1,25 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: guestbook
   namespace: guestbook
-
 spec:
-  replicas: 2
-
+  replicas: 1
   selector:
     matchLabels:
-      app: guestbook-ui
-
+      app: guestbook
   template:
     metadata:
       labels:
-        app: guestbook-ui
-
+        app: guestbook
     spec:
       containers:
-      - name: guestbook-ui
-        image: gcr.io/google-samples/gb-frontend:v5
-
+      - name: guestbook
+        image: nginx:latest
         ports:
         - containerPort: 80
