@@ -1,0 +1,27 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: techops-demo
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/<YOUR-GITHUB-USERNAME>/<YOUR-REPO-NAME>.git
+    targetRevision: main
+    path: episode-04-deploy-first-application/techops-demo
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo
+
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    # Manual sync for Episode 4.
+    # Automated sync + self heal will be enabled in Episode 5 / 6.
+    # automated:
+    #   prune: true
+    #   selfHeal: true
