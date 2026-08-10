@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prune-demo
+  namespace: demo
+data:
+  message: "This resource will be pruned"
+
