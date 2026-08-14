@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-demo
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series.git
+    targetRevision: main
+    path: episode-06-managing-helm-applications/helm/nginx-demo
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo
+
