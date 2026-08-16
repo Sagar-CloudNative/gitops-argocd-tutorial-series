@@ -17,7 +17,8 @@ This repo contains configuration files, Kubernetes manifests, and hands-on examp
 | 3 | Installing & Exploring Argo CD | [`episode-03-installing-exploring-argocd`](https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series/tree/main/episode-03-installing-exploring-argocd) |
 | 4 | Deploy Your First Application with Argo CD | [`episode-04-deploy-first-application`](https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series/tree/main/episode-04-deploy-first-application) |
 | 5 | Auto Sync, Self-Healing & Rollbacks | [`episode-05-auto-sync-self-healing-rollbacks`](https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series/tree/main/episode-05-auto-sync-self-healing-rollbacks) *(reuses the Episode 4 app — see folder README)* |
-| 6 | Managing Helm Applications with Argo CD | Coming soon |
+| 6 | Managing Helm Applications with Argo CD | [`episode-06-managing-helm-applications`](https://github.com/Sagar-CloudNative/gitops-argocd-tutorial-series/tree/main/episode-06-managing-helm-applications) |
+| 7 | Argo CD Image Updater | Coming soon |
 
 ## 🛠️ Tools Used
 
