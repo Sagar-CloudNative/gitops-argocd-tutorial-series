@@ -100,4 +100,4 @@ argocd app set techops-demo --sync-policy automated
 [Episode 4 – Deploy Your First Application with Argo CD](../episode-04-deploy-first-application)
 
 ## ⏭️ Next Episode
-Episode 6 – Managing Helm Applications with Argo CD (coming soon)
+[Episode 6 – Managing Helm Applications with Argo CD](../episode-06-managing-helm-applications)
