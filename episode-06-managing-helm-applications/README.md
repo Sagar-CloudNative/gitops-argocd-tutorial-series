@@ -8,7 +8,7 @@ values, overriding them through Argo CD, and upgrading the application via Git.
 
 ## 📺 Video
 
-Watch the full episode here: https://www.youtube.com/watch?v=VbL7p8UM-qE
+Watch the full episode here: [Managing Helm Applications with Argo CD | GitOps Series (Ep 6)](https://www.youtube.com/watch?v=VbL7p8UM-qE) 
 
 ---
 
